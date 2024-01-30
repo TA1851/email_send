@@ -12,8 +12,7 @@ mail.subject = 'Daily_Report'
 mail.bodyFormat = 1
 mail.body = '''本日の作業日報を送付します。
 
-1. 残業申請 Automation tool test
-2. P-Tech向け wiki 作成
+1. タスク内容を記述する
 
 明日の予定
 
