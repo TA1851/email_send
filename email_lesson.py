@@ -1,21 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[7]:
-
-
 import win32com.client
-
-
-# In[8]:
-
 
 outlook = win32com.client.Dispatch("Outlook.Application")
 mail = outlook.CreateItem(0)
-
-
-# In[9]:
-
 
 mail.to = 'yawatanabe@micron.com;'
 mail.cc = 'mosano@micron.com;ofushitani@micron.com;'
@@ -31,10 +20,3 @@ mail.body = '''本日の作業日報を送付します。
 '''
 # mail app が起動する（内容確認）
 mail.display(True)
-
-
-# In[ ]:
-
-
-
-
